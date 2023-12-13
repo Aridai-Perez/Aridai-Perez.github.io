@@ -1,3 +1,4 @@
+
 body {
   background-color: #C7B8EA;
 }
@@ -6,6 +7,7 @@ body {
 
 .navbar {
   background-color:#9B97B2;
+  font-family: 'Convergence', sans-serif;
 }
 
 .navbar-collapse {
@@ -25,7 +27,7 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .seccion-oscura {
@@ -41,7 +43,7 @@ h1 {
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .seccion-descripcion {
@@ -64,6 +66,10 @@ h1 {
 
 .texto-blanco {
   color: white;
+}
+
+p, h3 {
+  font-family: 'Mooli', sans-serif;
 }
 
 /* Seccion Hero */
@@ -139,6 +145,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .badges-contenedor {
@@ -260,7 +267,7 @@ h1 {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Mooli', sans-serif;
 }
 
 .testimonio-info {
@@ -350,7 +357,7 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Convergence', sans-serif;
 }
 
 .iconos-redes-sociales a {
@@ -383,7 +390,7 @@ footer {
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #4e4e4e;
   padding: 20px;
 }
 
@@ -418,6 +425,6 @@ footer {
 
 @media screen and (min-width: 300px) {
   .hero-inferior-imagen {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
