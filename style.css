@@ -288,6 +288,11 @@ p, h3 {
   color: #656060;
 }
 
+.testimonio-link {
+  text-decoration: none;
+  color: #483d70;
+}
+
 /* Contacto */
 
 .contacto .container {
